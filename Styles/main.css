@@ -1,0 +1,119 @@
+body{
+    background: rgb(164,164,164);
+    font-family: Helvetica;
+}
+
+
+footer .fixed-bottom{
+    background: rgb(164,164,164);
+    font-family: Helvetica;
+    position: fixed;
+    padding-top: 20px;
+}
+
+#Logo{
+    width: 176px;
+    height: 133px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+#description{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+#genre\ select{
+    border:3px  solid black ;
+    width: 299px;
+    text-align: center;
+    font-size: 40px;
+    top: 145px;
+    position: fixed;
+}
+
+#contact\ us{
+    border:3px  solid black ;
+    width: 299px;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 82%;
+    top: 145px;
+    text-decoration: none;
+
+
+}
+
+#contact\ us:hover{
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#myCarousel{
+
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+#left carousel-control #right carousel-control{
+    background-color: rgb(164,164,164);
+}
+
+.container{
+    padding-bottom: 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    font-size: 40px;
+    border: 3px  solid black;
+    width: 299px;
+    top: 145px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 299px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: darkred;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: darkred;}
